@@ -1,0 +1,97 @@
+/* 🌐 Styles généraux */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f9ff;
+    color: #333;
+  }
+  
+  /* 🧭 Header avec Flexbox */
+  .header {
+    background-color: #023e8a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+  
+  .nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    margin-left: 25px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nav a:hover {
+    color: #90e0ef;
+  }
+  
+  /* 🧩 Section principale */
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .intro {
+    max-width: 700px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  }
+  
+  /* 🎯 Grille avec Grid */
+  .grid-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 40px;
+    width: 80%;
+  }
+  
+  .card {
+    background-color: #0077b6;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    background-color: #0096c7;
+  }
+  
+  /* 📞 Footer */
+  .footer {
+    background-color: #023e8a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
+  
